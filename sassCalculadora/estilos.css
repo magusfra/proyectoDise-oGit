@@ -1,0 +1,48 @@
+body {
+  background-color: #7fffd4;
+}
+body .container {
+  padding: 5%;
+  padding-bottom: 0;
+}
+body .container .display {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+body .container .botones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+body .container .botones button {
+  border-radius: 50%;
+  background-color: #f0ffff;
+  color: black;
+}
+body .container .botones button:hover {
+  opacity: 0.8;
+}
+body .container .botones button:active {
+  transform: scale(1.1);
+}
+body .container .botones .boton0 {
+  grid-column-end: span 2;
+}
+body .container .botones .operacion {
+  background-color: #a52a2a;
+}
+body .container .botones .opciones {
+  background-color: #f0ffff;
+}
+
+/**
+&.hover{
+
+}
+&.active{
+
+}
+
+*/
+
+/*# sourceMappingURL=estilos.css.map */

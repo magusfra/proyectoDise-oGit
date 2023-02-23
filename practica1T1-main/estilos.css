@@ -1,0 +1,47 @@
+/*Definición de los colores del sitio*/
+:root{
+    --colorprimario: #020F0C;
+    --colorsecundario: #D6AE13;
+    --colorterciario: #ED0996;
+    --colorenlaces: #02a7d6;
+    --colortextos: #faf714;
+
+}
+
+/*aplicamos cambios*/
+p{
+    color: var(--colortextos);
+}
+body{
+    background: var(--colorprimario);
+}
+footer{
+    background-color: var(--colorsecundario);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer>p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: var(--colorsecundario);
+}
+.navbar{
+    background-color: var(--colorsecundario);
+}
+.nav-link{
+    color: var(--colorenlaces);
+}
+a{
+    color: var(--colorenlaces);
+}
+img{
+    
+    height: 5000px;
+    width: 5000x;
+}
+.btn-primary{
+    background: var(--colorenlaces);
+}

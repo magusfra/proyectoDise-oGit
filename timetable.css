@@ -1,0 +1,6 @@
+.col-sm{
+    background-color: aquamarine;
+}
+.col-sm:first-child{
+    background-color: brown;
+}

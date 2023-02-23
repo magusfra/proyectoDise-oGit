@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	background-color: #333;
+}
+a{
+	color: #ff8c00 !important;
+}
+
+body {
+	height: 900px;
+	font-family: sans-serif;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #4d4a4a;
+}
+/*Estilos para h1,h2,h3 y parrafos*/
+h1 {
+	font-family: 'fantasy';
+	font-size: 75px;
+	margin-bottom: 30px;
+    color: #fff;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-bottom: 30px;
+
+}
+#map{
+	color: #fff;
+	background-color: #ff8c00;
+}
+
+/*Estilo para los botones que se incluyan en la página*/
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*Estilo para el bonton que redirige al inicio de la pagina*/
+.n {
+	align-items: center;
+}
+
+
+footer {
+	background-color: #ff8c00;
+}
+
